@@ -9,4 +9,6 @@ def sum(num):
 
 
 if __name__ == "__main__":
-    sum(8)
+    inp_num = int(input("Введите число: "))
+    sum(int(inp_num))
+
